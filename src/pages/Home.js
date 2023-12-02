@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import { Box, Typography } from '@mui/material';
 import Footer from '../components/Footer.js';
 import YouTubePlayer from '../components/YouTubePlayer.js';
-import Carousel from '../components/Carousel.tsx';
 import FaqsMotion from './FaqsMotion.js';
 import  PhotosList  from '../components/PhotosList.js'
 
@@ -24,7 +23,6 @@ import  PhotosList  from '../components/PhotosList.js'
   
     <Box className='home-hero'>
       <Box className='carousel-hero'>
-    <Carousel />
   </Box>
   <Box  className='hero-header-slider' > 
      <FaqsMotion move={{
