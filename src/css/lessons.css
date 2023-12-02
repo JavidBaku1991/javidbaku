@@ -152,4 +152,11 @@ left: 2%;
 }
 
     }
+
+
+    @media screen and (max-width: 400px){
+.lessons-subheader{
+    font-size: 10px;
+}
+    }
    

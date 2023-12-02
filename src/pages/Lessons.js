@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Divider } from '@mui/material';
+import { Box } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Typography } from '@mui/material';
