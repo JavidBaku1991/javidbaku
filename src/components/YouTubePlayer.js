@@ -10,7 +10,7 @@ const YouTubePlayer = ({youtubeLink}) => {
   const videoId = {youtubeLink}; // Replace this with your YouTube video ID
 
   const opts = {
-    height: '300',
+    height: '260',
     width: '320',
     playerVars: {
       autoplay: 0, // Set to 1 for autoplay
