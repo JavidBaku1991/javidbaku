@@ -32,7 +32,7 @@ import  PhotosList  from '../components/PhotosList.js'
                   visible: { opacity: 1, x: 50 },
                 }}
                 duration={{duration:2}}>
-                            <h1  className='hero-header-up'> Səhifəmə</h1>
+                            <h1  className='hero-header-up'> Səhifəmə.</h1>
 
         </FaqsMotion>
      <FaqsMotion move={{
