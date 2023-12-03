@@ -23,7 +23,7 @@ const SidebarMenu =()=>{
                   <Typography variant='h5'>Haqqımda</Typography>
                   </Link>
                   <Link className='sidelink' to='/lessons'>  
-                  <Typography variant='h5'>Lessons</Typography>
+                  <Typography variant='h5'>Dərslər</Typography>
                   </Link>
                 
                   <Link  to='/notes' className='sidelink'> 
@@ -32,7 +32,7 @@ const SidebarMenu =()=>{
                   <Link  to='/faqs' className='sidelink'> 
                   <Typography variant='h5'>Suallar</Typography>
                   </Link>  
-                  <Link  to='/faqs' className='sidelink'> 
+                  <Link  to='/contacts' className='sidelink'> 
                   <Typography variant='h5'>Əlaqə</Typography>
                   </Link>  
                                  
