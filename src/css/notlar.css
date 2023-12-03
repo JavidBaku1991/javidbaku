@@ -48,6 +48,10 @@
     
 }
 
+
+
+
+
 .composer{
     position: relative;
     display: grid;
@@ -61,11 +65,14 @@
 
 .note-title{
     margin-left: 20px;
+    font-family: "Montserrat",sans-serif;
 
 }
 
 
 .notes-header{
+    font-family: "Montserrat",sans-serif;
+
 margin: 0 auto;   
  padding: 4px;
     background-color: #b87333;
@@ -80,6 +87,8 @@ margin: 0 auto;
 
 /* button */
 .note-button{
+    font-family: "Montserrat",sans-serif;
+
     background-color: #b87333;
     border: none;
     width: 130px;

@@ -1,5 +1,5 @@
 import React ,{useEffect, useState} from 'react'
-import { Box, IconButton, Typography ,Button} from "@mui/material";
+import { Box, Typography ,Button} from "@mui/material";
 import {Link} from 'react-router-dom'
 import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -31,7 +31,11 @@ const SidebarMenu =()=>{
                   </Link>
                   <Link  to='/faqs' className='sidelink'> 
                   <Typography variant='h5'>Suallar</Typography>
-                  </Link>                 
+                  </Link>  
+                  <Link  to='/faqs' className='sidelink'> 
+                  <Typography variant='h5'>Əlaqə</Typography>
+                  </Link>  
+                                 
             
 </div>
     )
@@ -62,6 +66,7 @@ const SidebarMenu =()=>{
                   <Link  to='/faqs' className='navlink'> 
                   <Typography>Suallar</Typography>
                   </Link>                 
+                                 
               </Box>
           </Box>
 

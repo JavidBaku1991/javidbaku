@@ -1,9 +1,16 @@
 import React from 'react'
 import Logo from '../images/jb.png'
-import { Box, Divider, Typography, colors } from '@mui/material'
+import { Box} from '@mui/material'
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import HomeIcon from '@mui/icons-material/Home';
+import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import {Link} from 'react-router-dom'
+
 import { motion } from "framer-motion";
 import FaqsMotion from '../pages/FaqsMotion';
 
@@ -41,7 +48,27 @@ import FaqsMotion from '../pages/FaqsMotion';
          <h1 className='rights-info' > JAVID BAKU  &copy;Bütün hüquqlar qorunur. </h1> 
         </motion.div>
           </Box>
-   
+        <Box  className='footer-down'>        
+              <Link to='/contacts' className='footer-link'>
+                <LocalPostOfficeIcon  className='footer-down-icon'/>
+                </Link>
+                <Link to='https://www.instagram.com/javid_baku_/'  className='footer-link' target='_blank'>
+
+                <InstagramIcon className='footer-down-icon' />
+                </Link>
+
+                <Link to="https://wa.me/+994709209747"  className='footer-link' target='_blank'>
+                <WhatsAppIcon  className='footer-down-icon' />
+                </Link>
+
+                <Link to='https://www.facebook.com/cavid.baku.7/'  className='footer-link' target='_blank' >
+                <FacebookIcon  className='footer-down-icon' />
+                </Link>
+                <Link to='https://www.youtube.com/channel/UChR9zh9v-8FeeGyzk9uPDsA'  className='footer-link' target='_blank' >
+                <YouTubeIcon  className='footer-down-icon' />
+                </Link>                
+
+        </Box>
 </footer>
     )
 }
